@@ -31,17 +31,29 @@ intermediate_files/	- 		This contains all the files that are usually produced fr
 ### Following are the Python libraries used in our codes - 
 
 pandas (0.20.1)
+
 numpy (1.14.1)
+
 keras (2.1.4)
+
 tensorflow (1.5.0)
+
 sklearn (0.19.0)
+
 scipy (1.0.0)
+
 nltk (3.2.3)
+
 gensim (1.0.1)
+
 wordsegment (0.8.0) ([https://github.com/grantjenks/python-wordsegment])
+
 itertools
+
 os
+
 re
+
 timeit
 
 Note - If user faces problems in successfully creating and storing the intermediate files required, please email at "pranavgoel403@gmail.com" and we can try and give the numpy vectors directly (although they will be of large sizes).
