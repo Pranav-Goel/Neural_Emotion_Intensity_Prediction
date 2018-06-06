@@ -1,0 +1,3 @@
+This directory stores the gold labels/annotated emotional intensities for the train, dev and test sets for all emotions as numpy vectors. These are needed to train and evaluate the neural models, and are required by most codes.
+
+Note - Though we have provided these labelled intensities, the code, which utilizes the raw data files provided by the EmoInt shared task organizers (see the data/ directory) to populate this directory, can be found in the last comments of the code ../codes/Supporting_Codes/create_and_save_word2vec_reps_and_labels.ipynb.

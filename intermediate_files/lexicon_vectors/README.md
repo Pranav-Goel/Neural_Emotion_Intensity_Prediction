@@ -1,0 +1,3 @@
+This folder stores the external lexicon (from the Affective Tweets package) based 43 dimensional embeddings (in form of numpy vectors) for the train, dev and test sets for all the emotions. 
+
+This directory serves as the OUTPUT directory/stores the files produced by the code ../../codes/Supporting_Codes/create_and_save_deepmoji_and_lexicon_feature_vectors.ipynb. Please run that code to populate this directory.

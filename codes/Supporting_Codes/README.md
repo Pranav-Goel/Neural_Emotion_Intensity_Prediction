@@ -1,0 +1,8 @@
+*Please ensure that the resources required to run these codes are downloaded, as per the README files in the folders - ../../intermediate_files/deepmoji/ ; ../../intermediate_files/lexicons/ ; and ../../intermediate_files/word2vec_model. These files are required to run the codes below. Also note the file names used in the codes below, and organize and rename files in those intermediate_files/ subdirectories accordingly!*
+
+
+**create_and_save_word2vec_reps_and_labels.ipynb**		- 	This file when run successfully creates and saves two things - 
+1) The concatenated Twitter word2vec based representations (numpy vectors) for all the train, dev and test tweets for all the emotions in the directory ../../intermediate_files/word2vec_based_concatenated_vectors/, and 
+2) Numpy vectors for the annotated emotion intensities for the train, dev and test tweets for all the emotions saved in ../../intermediate_files/gold_label_vectors/.
+
+**create_and_save_lexicon_feature_vectors.ipynb**	- 	This small script creates and saves the lexicon based 43 dimensional feature vector (numpy vectors) for all the train, dev and test tweets for all the emotions, saved in the directory ../../intermediate_files/lexicon_vectors/. This takes in the input as files in the intermediate_files/lexicons/ folder. Most of the work is actually done by following the instruction in intermediate_files/lexicons/README.md. It is necessary to successfully follow those instructions first, before executing this script.
