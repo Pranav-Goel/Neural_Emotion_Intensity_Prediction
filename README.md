@@ -5,9 +5,9 @@ This repository contains all the documented scripts and files (or links for down
 
 The neural models include a proposed architecture that combines *L*exicon-based features, pre-trained activations of a CNN trained for *E*moji detection in tweets, a CNN and fully connected layers in parallel (hence, it is a *P*arallely *C*onnected *D*eep *N*eural *N*etwork) called LE-PC-DNN by us (Section 2 in the paper). There are also 2 proposed Deep Multi-Task Learning architectures (Section 3). We also include code for our ablation tests to test the importance of the various components of the neural model, and provide scripts for running our pairwise correlation tests (Section 6).
 
-*Details can be found in our paper (with the title above) accepted for publication at COLING 2018 (full main conference paper). The PDF of the paper will be made available soon here.*
+*Details can be found in our paper (with the title above) accepted for publication at COLING 2018 (full main conference paper). The PDF is available [here](http://www.aclweb.org/anthology/C18-1247).*
 
-### If you use the code here, or the experiments described help your own work, please cite our paper (citation coming soon).
+### If you use the code here, or the experiments described help your own work, please cite our paper: _Kulshreshtha, Devang, Pranav Goel, and Anil Kumar Singh. "How emotional are you? Neural Architectures for Emotion Intensity Prediction in Microblogs." Proceedings of the 27th International Conference on Computational Linguistics. 2018._ [[Bibtex](https://scholar.googleusercontent.com/scholar.bib?q=info:c_IRDVy4AP4J:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAW8DaS_KpHT29e84HbQvYPRfyR50Ye56U&scisf=4&ct=citation&cd=-1&hl=en)]
 
 ### To successfully and smoothly run our experiments, please follow the steps below - 
 
